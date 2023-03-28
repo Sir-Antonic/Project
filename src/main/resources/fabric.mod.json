@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "arimod",
+  "version": "${version}",
+
+  "name": "Ari Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Antonic"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/arimod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.antonic.ari.AriMod"
+    ],
+    "client": [
+      "com.antonic.ari.AriModClient"
+    ],
+    "fabric-datagen":[
+      "com.antonic.AriMod.AriModDataGenerator"
+    ]
+  },
+  "mixins": [
+    "arimod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
