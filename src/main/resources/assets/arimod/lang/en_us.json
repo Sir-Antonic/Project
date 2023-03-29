@@ -1,3 +1,12 @@
 {
-    "item.arimod.oakstick": "Oak Stick"
+    "item.arimod.oakstick": "Oak Stick",
+    "item.arimod.sprucestick": "Spruce Stick",
+    "item.arimod.birchstick": "Birch Stick",
+    "item.arimod.junglestick": "Jungle Stick",
+    "item.arimod.acaciastick": "Acacia Stick",
+    "item.arimod.darkoakstick": "Dark Oak Stick",
+    "item.arimod.mangrovestick": "Mangrove Stick",
+    "item.arimod.cherrystick": "Cherry Stick",
+    "item.arimod.crimsonstick": "Crimson Hyphae Stick",
+    "item.arimod.warpedstick": "Warped Hyphae Stick"
 }
