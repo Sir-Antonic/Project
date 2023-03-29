@@ -20,7 +20,6 @@ public class ModItems {
     public static final Item ACACIASTICK = registerItem("acaciastick", new Item(new FabricItemSettings()));
     public static final Item DARKOAKSTICK = registerItem("darkoakstick", new Item(new FabricItemSettings()));
     public static final Item MANGROVESTICK = registerItem("mangrovestick", new Item(new FabricItemSettings()));
-    public static final Item CHERRYSTICK = registerItem("cherrystick", new Item(new FabricItemSettings()));
     public static final Item CRIMSONSTICK = registerItem("crimsonstick", new Item(new FabricItemSettings()));
     public static final Item WARPEDSTICK = registerItem("warpedstick", new Item(new FabricItemSettings()));
 
@@ -36,7 +35,6 @@ public class ModItems {
         addItemsToItemGroup(ItemGroups.INGREDIENTS, ACACIASTICK);
         addItemsToItemGroup(ItemGroups.INGREDIENTS, DARKOAKSTICK);
         addItemsToItemGroup(ItemGroups.INGREDIENTS, MANGROVESTICK);
-        addItemsToItemGroup(ItemGroups.INGREDIENTS, CHERRYSTICK);
         addItemsToItemGroup(ItemGroups.INGREDIENTS, CRIMSONSTICK);
         addItemsToItemGroup(ItemGroups.INGREDIENTS, WARPEDSTICK);
     }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#",
+      "#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:spruce_planks"
+      }
+  },
+  "result": {
+    "item": "arimod:sprucestick",
+    "count": 4
+  },
+  "group": "sticks"
+}
